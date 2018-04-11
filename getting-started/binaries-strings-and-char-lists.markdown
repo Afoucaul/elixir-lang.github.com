@@ -48,6 +48,8 @@ iex> ?a
 97
 iex> ?ł
 322
+iex> ?\s    # The ASCII whitespace
+32
 ```
 
 You can also use the functions in [the `String` module](https://hexdocs.pm/elixir/String.html) to split a string in its individual characters, each one as a string of length 1:
